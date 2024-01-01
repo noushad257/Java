@@ -2,19 +2,16 @@ package com.company;
 import java.util.Scanner;
 public class switchcase {
     public static void main(String[] args) {
-        int age;
-        System.out.println("Enter your age");
-        Scanner sc=new Scanner(System.in);
-        age= sc.nextInt();
+        int var='s';
 
-        switch (age){
-            case 18:
+        switch (var){
+            case 'e':
                 System.out.println("You are almost adult");
                 break;
-            case 21:
+            case 'k':
                 System.out.println("You are going to join a job ");
                 break;
-            case 60:
+            case 's':
                 System.out.println("You are going to get retair ");
                 break;
             default:
